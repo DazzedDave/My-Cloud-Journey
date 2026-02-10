@@ -1,0 +1,307 @@
+{
+  "id": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourceGroups/Project-Secure-Office/providers/Microsoft.Resources/deployments/Main-VNet-1770749092986",
+  "name": "Main-VNet-1770749092986",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "14416935691061490795",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "westus2"
+      },
+      "extendedLocation": {
+        "type": "Object",
+        "value": {}
+      },
+      "virtualNetworkName": {
+        "type": "String",
+        "value": "Main-VNet"
+      },
+      "tagsByResource": {
+        "type": "Object",
+        "value": {
+          "Microsoft.Network/virtualNetworks": {},
+          "Microsoft.Network/ddosProtectionPlans": {},
+          "Microsoft.Network/publicIPAddresses": {},
+          "Microsoft.Network/azureFirewalls": {},
+          "Microsoft.Network/bastionHosts": {},
+          "Microsoft.Network/natGateways": {},
+          "Microsoft.Network/publicIPPrefixes": {},
+          "Microsoft.Network/networkSecurityGroups": {}
+        }
+      },
+      "addressSpace": {
+        "type": "Object",
+        "value": {
+          "addressPrefixes": [
+            "10.0.0.0/16"
+          ]
+        }
+      },
+      "encryptionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "encryptionEnforcement": {
+        "type": "String",
+        "value": "AllowUnencrypted"
+      },
+      "subnets": {
+        "type": "Array",
+        "value": [
+          {
+            "name": "default",
+            "properties": {
+              "addressPrefixes": [
+                "10.0.0.0/24"
+              ]
+            }
+          },
+          {
+            "name": "Public-Subnet",
+            "properties": {
+              "addressPrefixes": [
+                "10.0.1.0/24"
+              ],
+              "privateEndpointNetworkPolicies": "Disabled"
+            }
+          },
+          {
+            "name": "Private-Subnet",
+            "properties": {
+              "addressPrefixes": [
+                "10.0.2.0/24"
+              ],
+              "privateEndpointNetworkPolicies": "Disabled"
+            }
+          }
+        ]
+      },
+      "ddosProtectionPlanEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "ddosProtectionPlanIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPublicIpAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPolicyIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPolicyManagementPublicIPAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionPublicIpAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionNsgIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "ddosProtectionPlanName": {
+        "type": "String",
+        "value": "##ddos-protection-plan-name-not-set##"
+      },
+      "ddosProtectionPlanId": {
+        "type": "String",
+        "value": "##ddos-protection-plan-id-not-set##"
+      },
+      "firewallName": {
+        "type": "String",
+        "value": "##firewall-name-not-set##"
+      },
+      "firewallSkuTier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "firewallPublicIpAddressName": {
+        "type": "String",
+        "value": "##firewall-public-ip-name-not-set##"
+      },
+      "firewallPublicIpAddressId": {
+        "type": "String",
+        "value": ""
+      },
+      "firewallPublicIPAddressServiceTag": {
+        "type": "String",
+        "value": ""
+      },
+      "firewallPolicyName": {
+        "type": "String",
+        "value": "##firewall-policy-name-not-set##"
+      },
+      "firewallPolicyId": {
+        "type": "String",
+        "value": "##firewall-policy-id-not-set##"
+      },
+      "firewallPolicyTier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "firewallPolicyManagementPublicIPAddressName": {
+        "type": "String",
+        "value": "##firewall-policy-management-public-i-p-address-name-not-set##"
+      },
+      "firewallPolicyManagementPublicIPAddressId": {
+        "type": "String",
+        "value": "##firewall-policy-management-public-i-p-address-id-not-set##"
+      },
+      "bastionName": {
+        "type": "String",
+        "value": "##bastion-name-not-set##"
+      },
+      "bastionPublicIpAddressName": {
+        "type": "String",
+        "value": "##bastion-public-ip-address-name-not-set##"
+      },
+      "bastionPublicIPAddressId": {
+        "type": "String",
+        "value": ""
+      },
+      "bastionPublicIpAddressServiceTag": {
+        "type": "String",
+        "value": ""
+      },
+      "bastionNsgName": {
+        "type": "String",
+        "value": "##bastion-nsg-name-not-set##"
+      },
+      "bastionNsgId": {
+        "type": "String",
+        "value": "##bastion-nsg-id-not-set##"
+      },
+      "natGatewaysWithNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "natGatewaysWithoutNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "natGatewayPublicIpAddressesNewNames": {
+        "type": "Array",
+        "value": []
+      },
+      "networkSecurityGroupsNew": {
+        "type": "Array",
+        "value": []
+      },
+      "ipv6Enabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "subnetCount": {
+        "type": "Int",
+        "value": 3
+      },
+      "addressSpaceStartingAddressChanged": {
+        "type": "Bool",
+        "value": false
+      },
+      "addressSpaceAddressSizeChanged": {
+        "type": "Bool",
+        "value": false
+      },
+      "defaultSubnetChanged": {
+        "type": "Bool",
+        "value": true
+      },
+      "subnetsInfo": {
+        "type": "Array",
+        "value": [
+          {
+            "cidr": "10.0.0.0/24",
+            "name": "Default",
+            "natGw": "none",
+            "nsg": "none",
+            "udr": "none"
+          },
+          {
+            "cidr": "10.0.1.0/24",
+            "name": "Default",
+            "natGw": "none",
+            "nsg": "none",
+            "udr": "none"
+          },
+          {
+            "cidr": "10.0.2.0/24",
+            "name": "Default",
+            "natGw": "none",
+            "nsg": "none",
+            "udr": "none"
+          }
+        ]
+      },
+      "ipamPools": {
+        "type": "Array",
+        "value": []
+      },
+      "networkManager": {
+        "type": "Object",
+        "value": {}
+      },
+      "createNetworkManager": {
+        "type": "Bool",
+        "value": false
+      },
+      "networkManagerName": {
+        "type": "String",
+        "value": "##network-manager-name-not-set##"
+      },
+      "avnmResourceGroup": {
+        "type": "String",
+        "value": "##avnm-resource-group-not-set##"
+      },
+      "avnmSubscriptionId": {
+        "type": "String",
+        "value": "##avnm-subscription-id-not-set##"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2026-02-10T18:45:11.558134Z",
+    "duration": "PT12.5533337S",
+    "correlationId": "db751812-3f4d-4faa-a9e4-de692493be68",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualNetworks",
+            "locations": [
+              "westus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourceGroups/Project-Secure-Office/providers/Microsoft.Network/virtualNetworks/Main-VNet"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourcegroups/Project-Secure-Office/providers/Microsoft.Network/virtualNetworks/Main-VNet"
+  }
+}

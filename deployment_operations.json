@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourceGroups/Project-Secure-Office/providers/Microsoft.Resources/deployments/Main-VNet-1770749092986/operations/2CA5F31FDC5A54A9",
+    "operationId": "2CA5F31FDC5A54A9",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-10T18:44:59.5569299Z",
+      "duration": "PT11.8448729S",
+      "trackingId": "d56201c4-fdac-4d5a-b850-53f730e09272",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourceGroups/Project-Secure-Office/providers/Microsoft.Network/virtualNetworks/Main-VNet",
+        "resourceType": "Microsoft.Network/virtualNetworks",
+        "resourceName": "Main-VNet"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/43f396f3-9be9-4e0f-8260-f5b38512972c/resourceGroups/Project-Secure-Office/providers/Microsoft.Resources/deployments/Main-VNet-1770749092986/operations/08584308577864628319",
+    "operationId": "08584308577864628319",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-02-10T18:44:59.5569299Z",
+      "duration": "PT11.9543186S",
+      "trackingId": "bc9c961e-3556-4226-8b6d-df658ab4b40e",
+      "statusCode": "OK"
+    }
+  }
+]
