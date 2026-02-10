@@ -9,7 +9,7 @@ Current Goals:
 
 [ ] Complete AZ-900 Certification
 
-[ ] Build a Secure Azure VNet
+[ X ] Build a Secure Azure VNet
 
 [ ] Set up a Cloud Resume
 
