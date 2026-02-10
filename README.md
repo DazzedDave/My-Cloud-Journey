@@ -17,7 +17,7 @@ Current Goals:
 **Goal:** Design and deploy a secure, two-tier cloud network using Infrastructure as Code (IaC).
 
 ### 🏗️ Architecture Diagram
-[Network Diagram] (project-1-diagram.png) 
+![Architecture Diagram](project-1-diagram.png)
 *Note: This diagram shows the logical flow from the Internet to the Public tier, with a separate Private tier for secure data.*
 
 ### 🛠️ Technical Specifications
