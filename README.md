@@ -30,3 +30,19 @@ Current Goals:
 - **Azure Networking:** Configuring VNets and Subnets with proper CIDR notation.
 - **Infrastructure as Code (IaC):** Exporting and managing ARM templates (JSON) in GitHub.
 - **Technical Documentation:** Creating clear architectural visuals to explain complex cloud setups.
+
+- ## Project 2: Azure Cloud Resume
+**Goal:** Deploy a professional resume website using cost-effective serverless storage.
+
+### 🔗 Live Demo
+[View my Live Cloud Resume](https://chaconresume.z5.web.core.windows.net/)
+
+### 🛠️ Technical Specifications
+- **Service:** Azure Blob Storage
+- **Feature:** Static Website Hosting
+- **Resource Group:** Project-Secure-Office
+
+### 🚀 Key Skills Demonstrated
+- Cloud Web Hosting (Serverless)
+- Basic HTML/CSS for technical presentation
+- Azure Storage Management
